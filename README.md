@@ -3,22 +3,22 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+## Scaffolding
 
-* Ruby version
+```
+rails generate scaffold User name:string, email:string
+```
 
-* System dependencies
+## Migration
 
-* Configuration
+- For Rails 5
+```
+rails db: migrate
+```
 
-* Database creation
+- Before Rails 5
+```
+rake db:migrate
+bundle exec rake db:migrate
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
