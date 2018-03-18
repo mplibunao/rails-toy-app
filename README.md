@@ -1,7 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
+
+* Install Ruby and Node js using asdf by running
+```
+asdf install
+```
 
 ## Scaffolding
 
@@ -22,3 +26,8 @@ rake db:migrate
 bundle exec rake db:migrate
 ```
 
+- Running migration on heroku
+```
+heroku run rails db:migrate
+heroku run bundle exec rake db:migrate
+```
